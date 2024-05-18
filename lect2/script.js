@@ -5,6 +5,7 @@ let a = 5;
 let b = 1;
 
 console.log("a + b = ", a + b);
+``
 console.log("a*b", a * b);
 console.log(a - b);
 
@@ -29,3 +30,23 @@ let A = 4;
 let B = 2;
 A -= 2;
 console.log("A =", A);
+
+
+//comparison operators 
+let x = 5;
+let y = 2;
+console.log("5==2", x == y);
+
+//let l = 4
+//let k = 4
+//console.log("4==4", l == k);
+
+
+//Logical operators
+
+let l = 6;
+let k = 5;
+let cond1 = l < k;
+let cond2 = l == k;
+//console.log("cond1 && cond2", cond1 && cond2);
+console.log("!(6<5)=", !(l < k)); //false
