@@ -50,3 +50,23 @@ let cond1 = l < k;
 let cond2 = l == k;
 //console.log("cond1 && cond2", cond1 && cond2);
 console.log("!(6<5)=", !(l < k)); //false
+
+
+
+//conditional statement
+
+let mode = "light";
+let color;
+if (mode === "dark") {
+    color = "black";
+}
+if (mode === "light") {
+    color = "white";
+}
+
+console.log(color);
+
+//let age = 24;
+//if (age > 18) {
+//  console.log(" you can vote");
+//}
