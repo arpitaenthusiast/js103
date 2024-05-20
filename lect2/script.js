@@ -70,3 +70,34 @@ console.log(color);
 //if (age > 18) {
 //  console.log(" you can vote");
 //}
+
+
+//else if
+
+let mode2 = "blue";
+let color2;
+
+if (mode2 === "dark") {
+    color2 = "black";
+} else if (mode2 === "blue") {
+    color2 = "blur";
+} else if (mode2 === "green") {
+    color2 = "green";
+} else {
+    color2 = "white";
+}
+console.log(color2);
+
+
+
+//conditional statements
+
+let age = 16;
+let result = age >= 18 ? "adult" : "not adult"
+console.log(result);
+
+
+//alert("hello");
+
+//let name = prompt("hello");
+//console.log(name);
