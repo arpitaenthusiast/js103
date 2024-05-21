@@ -73,3 +73,11 @@ while (i <= 5);
 // console.log(spcialstring);
 console.log("my \n name ");
 console.log("my \t home  ");
+
+//string methods
+
+let str = "my college"
+    // let newstring = str.toUpperCase();
+str = str.toUpperCase();
+console.log(str);
+console.log(str);
