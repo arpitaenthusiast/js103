@@ -53,14 +53,23 @@ while (i <= 5);
 // console.log("string size", size);
 
 
-// for-in loop
-let student = {
-    name: "agomani",
-    age: 20,
-    cgpa: 7.2,
-    isspass: true,
-};
-for (let key in student) {
-    console.log("key=", key, "value=", student[key]);
+// // for-in loop
+// let student = {
+//     name: "agomani",
+//     age: 20,
+//     cgpa: 7.2,
+//     isspass: true,
+// };
+// for (let key in student) {
+//     console.log("key=", key, "value=", student[key]);
 
-}
+// }
+
+
+// string 
+
+// tempplate literals
+// let spcialstring = `This is a template literal ${ 1+2+3}`;
+// console.log(spcialstring);
+console.log("my \n name ");
+console.log("my \t home  ");
