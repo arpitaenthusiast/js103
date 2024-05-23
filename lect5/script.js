@@ -11,10 +11,10 @@
 // myfunction();
 
 
-function myfunction(msg) {
-    console.log(msg);
-}
-myfunction("jai hind");
+// function myfunction(msg) {
+//     console.log(msg);
+// }
+// myfunction("jai hind");
 
 
 //function --> 2 numbers , sum 
@@ -27,11 +27,49 @@ myfunction("jai hind");
 
 
 
-function sum(x, y) {
-    s = x + y;
-    console.log(x);
-    return s;
-    console.log("after return");
+// function sum(x, y) {
+//     s = x + y;
+//     console.log(x);
+//     return s;
+//     console.log("after return");
+// }
+// let val = sum(3, 4);
+// console.log(val);
+
+
+
+
+//arrow functions 
+//sum function
+
+function sum(a, b) {
+    return a + b;
 }
-let val = sum(3, 4);
-console.log(val);
+
+// const arrowSum = (a, b) => {
+//     console.log(a + b);
+// };
+
+
+
+
+function color(red, green) {
+    return red + green;
+}
+
+const arrowSum = (red, green) => {
+    console.log(red + green);
+};
+
+
+
+function countvowels(str) {
+    let count = 0;
+    for (const char of str) {
+        if (char === "1" || char === "2" || char === "3" || char === "4" || char === "5") {
+            count++;
+        }
+        console.log(count);
+    }
+    return count;
+}
