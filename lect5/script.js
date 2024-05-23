@@ -18,9 +18,18 @@ myfunction("jai hind");
 
 
 //function --> 2 numbers , sum 
+// function sum(x, y) {
+//     s = x + y;
+//     console.log("before return");
+//     return s;
+//     console.log("after return");
+// }
+
+
+
 function sum(x, y) {
     s = x + y;
-    console.log("before return");
+    console.log(x);
     return s;
     console.log("after return");
 }
