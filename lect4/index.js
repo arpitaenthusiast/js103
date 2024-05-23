@@ -34,10 +34,17 @@
 
 
 
-//array mathods
+//array methods
 //push
 let color = ["red", "green", "white", "blue"];
 //color.push("pink", "black", "golden");
 console.log(color);
 color.pop();
 console.log(color);
+
+
+let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(2, 2, 101, 104, )
+
+//add element
+arr.splice(2, 0, 101);
