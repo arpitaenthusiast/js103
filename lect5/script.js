@@ -90,7 +90,28 @@ arr.forEach((val) => {
 });
 
 
-let num = [2, 3, 4, 5, 2];
-num.forEach((num) => {
-    console.log(num ** 2);
+// let num = [2, 3, 4, 5, 2];
+// num.forEach((num) => {
+//     console.log(num ** 2);//num*num
+// });
+
+
+//more array methods
+//map method
+
+// let num = [77, 60, 25, 98];
+// num.map((val) => {
+//     console.log(val);
+// });
+
+// let num = [77, 60, 25, 98];
+// let newArr = num.map((val) => {
+//     return val;
+// });
+// console.log(newArr);
+
+let num = [77, 60, 25, 98];
+let newArr = num.map((val) => {
+    return val * val; //val**2
 });
+console.log(newArr);
