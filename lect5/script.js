@@ -88,3 +88,9 @@ let arr = ["kolkata", "mumbai", "pune"];
 arr.forEach((val) => {
     console.log(val);
 });
+
+
+let num = [2, 3, 4, 5, 2];
+num.forEach((num) => {
+    console.log(num ** 2);
+});
