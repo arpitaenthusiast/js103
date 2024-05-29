@@ -76,7 +76,15 @@ function countvowels(str) {
 
 
 // forEach loop in array
-let arr = [1, 2, 3, 4];
-arr.forEach(function printval(val) {
+// let arr = [1, 2, 3, 4];
+// arr.forEach(function printval(val) {
+//     console.log(val);
+// });
+
+
+
+
+let arr = ["kolkata", "mumbai", "pune"];
+arr.forEach((val) => {
     console.log(val);
 });
